@@ -33,7 +33,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.metrics import confusion_matrix
 
-# Question 1 Part A
+# Question 2 - Part A
 # Set parameters
 dataset_path = "/kaggle/input/audio-dataset-with-10-indian-languages/Language Detection Dataset"
 # Slected Malayalam, Tamil and Urdu
@@ -186,7 +186,7 @@ for lang in languages:
 stats = stats_analysis(mfcc_data)
 stats_plot(stats)
 
-# Question 1 - Part B
+# Question 2 - Part B
 # Function to extract MFCC features from  audio file
 def mfcc_ext_mean(audio_path, n_mfcc=13, sr=22050, max_pad_len=200):
     try:
