@@ -22,15 +22,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import librosa
 import librosa.display
-from tqdm import tqdm
 import seaborn as sns
-from scipy.stats import skew, kurtosis
 import librosa
 import random
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
+from tqdm import tqdm
+from scipy.stats import skew, kurtosis
 from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix
 
 # Question 2 - Part A
